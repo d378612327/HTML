@@ -1,0 +1,136 @@
+a:hover{
+	color: red;
+}
+.center{
+	width:1200px;
+	margin:auto;
+	line-height: 60px;
+}
+.logo sub{
+	display: block;
+	float: right;
+	color: #555555;
+	vertical-align:middle;
+	font-size: 30px;
+	margin-right: 860px;
+}
+.searchRight{
+	float: right;
+	margin-top:-110px ;
+	
+}
+.searchRight h4{
+	height: 10px;
+	
+}
+.icon{
+	font-style: normal;
+	font-size: 50px;
+	color: red;
+	float: left;
+	margin-top: 14px;
+	margin-right: 10px;
+	
+}
+
+.login-bg img{
+	width:100%;
+	height: 380px;
+	
+}
+.lg-box{
+	position: absolute;
+	left: 850px;
+	top: 202px;
+	float: right;
+	margin-top: -100px;
+	z-index:999;
+	width: 250px;
+	height: 335px;
+	background: rgba(255,255,255,.9);
+	padding: 10px;
+}
+.lg-box.hd{
+	height: 30px;
+}
+
+.lg-box .hd a{
+	margin-left: 92px;
+	font-size: 8px;
+	color: red;
+	
+}
+.lg-box .hd .icon1{
+	font-style: normal;
+	font-size: 15px;
+	color: red;
+	margin-right: 5px;
+}
+.lg-box .lg-tip{
+	font-size: 2px;
+	width: 100%;
+	background: #fff3f0;
+    border: 1px solid #ffcfc2;
+    color: #a3776c;
+    height: 25px;
+}
+.lg-box .lg-tip p{
+	margin-top: -19px;
+	font-size: 5px;
+}
+.lg-box .lg-tip .icon1{
+	margin-top: -25px;
+	font-style: normal;
+	font-size: 15px;
+	color: red;
+	margin-right: 5px;
+	
+}
+.lg-box .login ul{
+	padding: 0;
+	margin-top: 10px;
+}
+.lg-box .login ul li{
+	list-style: none;
+	padding: 0px;
+	margin-top: -15px;
+}
+.lg-box .login .id{
+	width: 100%;
+	height: 30px;
+	border: 1px solid #ddd;
+}
+.lg-box .login .password{
+	
+	width: 100%;
+	height: 25px;
+	border: 1px solid #ddd;
+	
+}
+.lg-box .login .enter{
+	width: 245px;
+    height: 30px;
+    background: red;
+    color: white;
+    border: none;
+}
+.lg-box .login a{
+	font-size: 10px;
+	color: #000;
+	text-decoration: none;
+}
+.lg-box .login .checkbox{
+	margin-left: 40px;
+	font-size: 5px;
+}
+.footer{
+	margin-bottom: 10px;
+}
+.footer a{
+	color: #666;
+	text-decoration: none;
+}
+.footer .asd{
+	font-size: 12px;
+	margin-top: -10px;
+}

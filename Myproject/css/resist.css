@@ -1,0 +1,105 @@
+li{
+	list-style: none;
+}
+.zi1{
+	font-style: normal;
+	margin-left: 30px;
+}
+.zi1 .reg_or{
+	color: red;
+}
+a:hover{
+	color: red;
+}
+.xianhao{
+	color: red;
+}
+.center{
+	width:1200px;
+	margin:auto;
+	line-height: 60px;
+}
+.logo sub{
+	display: block;
+	float: right;
+	color: #555555;
+	vertical-align:middle;
+	font-size: 30px;
+	margin-right: 860px;
+}
+.searchRight{
+	float: right;
+	margin-top:-110px ;
+	
+}
+.searchRight h4{
+	height: 10px;
+	
+}
+.icon{
+	font-style: normal;
+	font-size: 50px;
+	color: red;
+	float: left;
+	margin-top: 14px;
+	margin-right: 10px;
+	
+}
+/*第二部分*/
+.rg_bg{
+	padding: 20px 0;
+    background: #e8e8e8 url(../img/re-bg.jpg);
+}
+.g-wrap{
+	padding: 40px;
+    position: relative;
+	width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.main{
+	background: #fff;
+	padding: 10px;
+}
+.main .form1{
+	
+	display: block;
+	border-right:1px solid #ddd ;
+	width: 650px;
+}
+.main ul li{
+	margin-top: 20px;
+}
+.main ul li input{
+	margin-left: 20px;
+	width: 330px;
+    height: 38px;
+    padding: 0 0 0 8px;
+    border: 1px solid #ddd;
+}
+.main button{
+	background: #f83600;
+	width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 80px;
+}
+.zi{
+	float: right;
+	margin-right: 60px;
+	margin-top: -390px;
+}
+/*第三部分*/
+.footer{
+	font-size: 14px;
+    text-align: center;
+    color: #999;
+    padding: 20px 0;
+    line-height: 30px;
+}
+.footer a{
+	font-style: normal
+}

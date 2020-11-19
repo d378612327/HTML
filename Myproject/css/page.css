@@ -1,0 +1,358 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style:none
+}
+.my-head{
+	background: #f1f1f1;
+	/*line-height 和height高度一样的话文字自动居中*/
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	border-bottom: 1px solid #e7e7e7;			
+}
+.g-warp{
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.g-warp a:hover{
+	color: red;
+}
+.top-righr{
+	float: right;
+	font-size: 12px;
+}
+.top-righr a:hover{
+	color: red;
+}
+
+.search{
+	background: #fff;
+	position: relative;
+	border-bottom: 2px solid #666666;
+	box-shadow: 1px 10px 10px rgba(0,0,0,.1);
+	z-index: 999;
+}
+.leftImge{
+	padding: 20px 0;
+	height: 60px;
+	position: relative;
+}
+.mid{
+	float: right;
+	margin-right: 500px;
+	margin-top: 20px;
+}
+.btn{
+	position: absolute;
+	width: 100px;
+	height: 36px;
+	cursor: #fff;
+	background: #D90007;
+	border: 0
+}
+
+.searchbox{
+	width: 300px;
+	line-height: 10px;
+	padding: 3px 0;
+	border: 2px solid #D90007;
+	height: 26px;
+}
+.searchRight{
+	float: right;
+	margin-left: 100px;
+	margin-top:-55px ;
+	
+}
+.imgStyle{
+	overflow: hidden;
+	width: 100%;
+	height: 450px;
+	text-align:center
+}
+.nav{
+	float: left;
+	position:relative;
+	width:190px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.8);
+	background: red;
+	line-height:34px;
+	text-align:center;
+}
+.shopLift
+{
+	width: 800px;
+	height: 34px;
+	margin-left: 30px;
+}
+.shopLift li
+{
+	float: left;
+	font-size: 15px;
+	font-family: 700px;
+	margin-left: 20px;
+}
+.hd
+{
+	position: absolute;
+	z-index: 999;
+	width: 180px;
+	background: rgba(255,255,255,.9);
+	padding: 5px;
+	margin-top: 35px;
+}
+.hd li
+{
+	width: 170px;
+	font-size: 12px;
+}
+.g-warp .hd li
+{
+	height: 56.7px;
+	padding: 8.5px;
+	margin-top: -2px;
+}
+.xt
+{
+	float: left;
+	position: absolute;
+	margin-left: 193px;
+	margin-top: 36px;
+	border: 1px solid white;
+	background: white;
+	width: 300px;
+	height: 433px;
+	padding: 7px;
+}
+.xt dl
+{
+	height: 55px;
+	padding: 8.5px;
+	margin-top: -2px;
+}
+.picList
+{
+	margin-top: 4px;
+	font-size: 14px;
+}
+.picList li
+{
+	width: 200px;
+	float: left;
+	padding-left: none;
+}
+.ypdq
+{
+	float: left;
+	margin-left: 1px;
+	position: relative;
+}
+.imgborder
+{
+	border: 1px solid #F1F1F1;
+	width: 270px;
+	height: 80px;
+	padding: 10px;
+	float: left;
+	margin-right: 3px;
+}
+.zxyp
+{
+	position: relative;
+}
+.wzlb{
+	font-size: 14px;
+	padding: 2px;
+}
+.wzlb ul
+{
+	float: left;
+	margin-left: 2.5px;
+	margin-top: 1px;
+}
+.wzlb ul li
+{
+	margin-top: 12px;
+}
+.yytplb
+{
+	margin: 2px;
+}
+.yytplb li
+{
+	float: left;
+	padding: 3px;
+}
+.ysbj
+{
+	float: left;
+	margin-left: 5px;
+	position: relative;
+}
+.qwer{
+	font-size: 14px;
+	padding: 5px;
+	width: 150px;
+}
+.qwer ul
+{
+	float: left;
+	margin-left: 2.5px;
+	margin-top: 1px;
+}
+.qwer ul li
+{
+	margin-top: 16px;
+}
+.qwer h3{
+	margin-top: 10px;
+}
+.ysbjPic
+{
+	float: left;
+	position: absolute;
+	margin-left: 170px;
+	margin-top: 90px;
+	z-index: 1;
+}
+.dbl
+{
+	float: left;
+	position: absolute;
+	margin-left: 1px;
+	margin-top: 580px;
+}
+.wagg
+{
+	float: left;
+	margin-left: -180px;
+	margin-top: 580px;
+	width: 225px;
+	height: 350px;
+	background: #F7F7F7;
+	color: black;
+}
+.wagg ul li
+{
+	font-size: 13px;
+}
+.jkzx
+{
+	float: left;
+	width: 100px;
+	height: 34px;
+	background-color: red;
+	color: white;
+	line-height: 34px;
+	text-align: center;
+	margin-top: 580px;
+}
+.bjzx
+{
+	float: left;
+	width: 100px;
+	height: 34px;
+	background: #E7E7E7;
+	color: black;
+	line-height: 34px;
+	text-align: center;
+	margin-top: 580px;
+}
+.hrl
+{
+	width: 1000px;
+	border: 1px solid red;
+	margin-left: -800px;
+	margin-top: 665.8px;
+}
+.tp
+{
+	float: left;
+	margin-top: 5px;
+}
+.lb{
+	float: left;
+	margin-left: 250px;
+	margin-top: -320px;
+	font-size: 12px;
+}
+.lb ul
+{
+	margin-top: 10px;
+}
+.lb ul li
+{
+	margin-left: 25px;
+	margin-top: 9.5px;
+}
+.dibuMenu
+{
+	float: left;
+	margin-left: 1px;
+	margin-top: 15px;
+	border: 1px solid #dddddd;
+	width: 710px;
+}
+.dibuMenu li
+{
+	float: left;
+	padding-right: 10px;
+	line-height: 40px;
+	width: 80px;
+	height: 40px;
+	background: #E7E7E7;
+	padding: 0 30px;
+	border: 1px solid #DDDDDD;
+}
+.hz
+{
+	height: 60px;
+	width: 1200px;
+	background: #E7E7E7;
+}
+.wzl
+{
+	float: left;
+	margin-left: 1px;
+}
+.wzl li
+{
+	float: left;
+	font-size: 12px;
+	padding-right: 0px;
+	line-height: 30px;
+	margin-left: 5px;
+}
+.db
+{
+	float: left;
+	padding: 30px 0 10px;
+	text-align: center;
+	width: 1200px;
+	color: #999999;
+}
+.dbxx
+{
+	width: 1000px;
+	float: left;
+	text-align: center;
+	width: 1200px;
+	color: #999999;
+	line-height: 2em;
+	margin-bottom: 30px;
+}
+.dbtp
+{
+	width: 1000px;
+	float: left;
+	margin-left: 400px;
+}
+.dbtp ul li
+{
+	float: left;
+	margin-left: 10px;
+	
+}
+

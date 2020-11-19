@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/page.css" />
+		<script src="js/jquery-1.7.1.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function(){
+				
+                $(".hd").hover(function(){
+                	$("#btnSearch").css("background","blue");
+                	$(".xt").show()
+                },function(){
+                	$("#btnSearch").css("background","gold");
+                	$(".xt").hide()
+                })
+				
+				var len=3;
+				var $img=$(".imgStyle li")
+				var index=0;
+				function play()
+				{
+					$img.eq(index).fadeIn().siblings().fadeOut();
+				}
+				function auto()
+				{
+					timer=setInterval(function(){
+						index++;
+						if(index>len)
+					{		
+						index=0;
+						}
+						play();
+					},2000)
+				}
+				auto();
+			})
+			
+			//	alert("大家好")
+				//$("#btnSearch").click(function(){
+				//	$("#imgBtn").hide()
+					//alert("搜索成功 ")
+			//		$("#txt").hide()
+					
+			//	})
+			//})
+			
+		</script>
+	</head>
+	<body>
+		<div class="my-head">
+			<div class="g-warp">
+				<a>收藏十二药网</a>
+				<a>微信查药价</a>
+				<p class="top-righr">
+					您好，十二药网欢迎您！
+					<a href="Login.html" target="_blank">请登录</a>
+					 | <a>免费注册</a>
+				</p>
+				
+			</div>
+		</div>
+		<div class="search">
+		<div class="g-warp leftImge">
+			<img id="imgBtn" src="img/logo.gif"/>
+			<div class="mid"> 
+				<input id="txt" type="text"  class="searchbox" placeholder="搜索药品名(首字母)/批准文号(数字)/疾病/厂家/规格 "/>
+				<input id="btnSearch" type="button"  class="btn" value="搜索" />
+			</div>
+			<div class="searchRight">
+				<h4>互联网药品交易证书</h4>
+				<span>国&nbsp;&nbsp;&nbsp;<b>A20140005</b></span>
+			</div>
+		</div>
+        <div style="height: 34px; position: relative;" class="g-warp">
+				<div class="nav">
+					全部商品分类
+				</div>
+				<div class="hd">
+					<li>
+					<h3><a>常见用药</a></h3>
+					<br />
+					<span>泌尿系统&nbsp肠胃疾病&nbsp皮肤疾病</span>
+					</li>
+					<hr/>
+					<li>
+					<h3><a>慢性用药</a></h3>
+					<br />
+					<span>糖尿病药品&nbsp高血压&nbsp心脑血管</span>
+					</li>
+					<hr/>
+					<li>
+					<h3><a>妇科用药</a></h3>
+					<br />
+					<span>盆腔炎&nbsp乳腺增生&nbsp月经不调</span>
+					</li>
+					<hr/>
+					<li>
+					<h3><a>男科用药</a></h3>
+					<br />
+					<span>前列腺增生&nbsp前列腺炎&nbsp阳痿早泄</span>
+					</li>
+					<hr/>
+					<li>
+					<h3><a>养生保健</a></h3>
+					<br />
+					<span>女性保健&nbsp中老年保健&nbsp大众健康</span>
+					</li>
+					<hr/>
+					<li>
+					<h3><a>计生用品</a></h3>
+					<br />
+					<span>助情保健&nbsp情趣服饰</span>
+					</li>
+                </div>
+                	<div class="xt" style="display: none">
+                		<dl>
+                			<b><dt>辣条/薯片/快乐水</dt></b>
+                			<br/>
+                			<dd>
+                				<a>布拉布拉</a>
+                				<a>格瓦斯</a>
+                				<a>雄安</a>
+                			</dd>
+                		</dl>
+                		<hr/>
+                		<dl>
+                			<b><dt>辣条/薯片/快乐水</dt></b>
+                			<br/>
+                			<dd>
+                				<a>布拉布拉</a>
+                				<a>格瓦斯</a>
+                				<a>雄安</a>
+                			</dd>
+                		</dl>
+                		<hr/>
+                		<dl>
+                			<b><dt>辣条/薯片/快乐水</dt></b>
+                			<br/>
+                			<dd>
+                				<a>布拉布拉</a>
+                				<a>格瓦斯</a>
+                				<a>雄安</a>
+                			</dd>
+                		</dl>
+                		<hr/>
+                		<dl>
+                			<b><dt>辣条/薯片/快乐水</dt></b>
+                			<br/>
+                			<dd>
+                				<a>布拉布拉</a>
+                				<a>格瓦斯</a>
+                				<a>雄安</a>
+                			</dd>
+                		</dl>
+                		<hr/>
+                		<dl>
+                			<b><dt>辣条/薯片/快乐水</dt></b>
+                			<br/>
+                			<dd>
+                				<a>布拉布拉</a>
+                				<a>格瓦斯</a>
+                				<a>雄安</a>
+                			</dd>
+                		</dl>
+                		<hr/>
+                		<dl>
+                			<b><dt>辣条/薯片/快乐水</dt></b>
+                			<br/>
+                			<dd>
+                				<a>布拉布拉</a>
+                				<a>格瓦斯</a>
+                				<a>雄安</a>
+                			</dd>
+                		</dl>
+                		<hr/>     		
+					</div>
+				<div class="shopLift">
+				<ul>
+					<li>
+						<a>首页</a>
+					</li>
+					<li>
+						<a target="_blank">中西药品</a>
+					</li>
+					<li>
+						<a target="_blank">养生保健</a>
+					</li>
+					<li>
+						<a target="_blank">健康资讯</a>
+					</li>
+					<li>
+						<a target="_blank">药品百科</a>
+					</li>
+					<li>
+						<a target="_blank">疾病百科</a>
+					</li>
+					<li>
+						<a target="_blank">药品大全</a>
+					</li>
+					<li>
+						<a target="_blank">问答频道</a>
+					</li>
+				</ul>		
+		</div>
+	</div>
+	</div>
+		<div class="imgStyle">
+			<ul>
+				<li><img src="img/12345.jpg"/></li>
+				<li><img src="img/32.jpg"/></li>
+				<li><img src="img/4565.jpg"/></li>
+			</ul>
+		</div>
+		<div class="g-warp">
+			<b style="font-size: 20px;">每日特惠购</b>
+			<sub style="color:yellow;background: red;">每日抢货超级好货</sub>
+			<div class="picList">
+				<ul>
+					<li><img src="img/20180205172938aupY0XvH.jpg"</li>
+					<li><img src="img/000.jpg"></li>
+					<li><img src="img/1234.jpg"></li>
+					<li><img src="img/123456.jpg"></li>
+					<li><img src="img/7894.jpg"></li>
+					<li><img src="img/201802051730237zSxQczH.jpg"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="g-warp">
+		<div class="ypdq">
+		<div class="g-warp">
+			<b style="font-size: 20px;">药房大全</b>
+			<sub>
+				共收录<b style="color: red;">42</b>家药房信息
+			</sub>
+		</div>
+		    <div class="imgborder">
+			<img style="width: 70px; height: 50px;" src="img/201601231346093U6Y94Rw.png">
+			    <div style="float: right;">
+				<b><span>菏泽市巨野县厚仁大药房</span></b>
+				<br/>
+				<span>已收录<b style="color: orange;">1850</b>个商品</span>
+				</div>
+			</div>
+			<div class="imgborder">
+			<img style="width: 70px; height: 50px;" src="img/20160322175156sQ25pbRm.png">
+			    <div style="float: right;">
+				<b><span>北京市海淀区安利亚药房</span></b>
+				<br/>
+				<span>已收录<b style="color: orange;">1401</b>个商品</span>
+				</div>
+			</div>
+			<div class="imgborder">
+			<img style="width: 70px; height: 50px;" src="img/20130925092926uy4WbtcC.jpg">
+			    <div style="float: right;">
+				<b><span>天津市滨海区天天健大药房</span></b>
+				<br/>
+				<span>已收录<b style="color: orange;">8297</b>个商品</span>
+				</div>
+			</div>
+			<div class="imgborder">
+			<img style="width: 70px; height: 50px;" src="img/20140111153451nI2LTxn9.jpg">
+			    <div style="float: right;">
+				<b><span>聊城市东昌府区膳之堂药</span></b>
+				<br/>
+				<span>已收录<b style="color: orange;">1405</b>个商品</span>
+				</div>
+		    </div>
+		</div>
+		</div>
+		<div class="g-warp">
+		<div class="zxyp">
+            <b ><span style="color: red; font-size:25px" >中西药品</span></b>
+		    <sub style="color: red;">中西药品&nbsp;正品保证</sub>
+		</div>
+		<div class="wzlb">
+			<ul>
+				<li><a>胃肠疾病</a></li>
+			    <li><a>神经衰弱</a></li>
+				<li><a>妇科用药</a></li>
+				<li><a>风湿骨痛</a></li>
+				<li><a>小儿腹泻</a></li>
+				<li><a>抗菌消炎</a></li>
+				<li><a>风湿病</a></li>
+				<li><a>心绞痛</a></li>
+				<li><a>皮肤过敏</a></li>
+				<li><a>急慢性咽炎</a></li>
+				<li><a>慢性支气管炎</a></li>
+				<li><a>脚气/癣症</a></li>
+				<li><a>皮肤疾病</a></li>
+				<li><a>泌尿系统</a></li>
+				<li><a>心脑血管</a></li>
+			</ul>
+			<ul>
+				<li><a>高血压</a></li>
+				<li><a>阳痿早泄</a></li>
+				<li><a>前列腺炎</a></li>
+				<li><a>月经不调</a></li>
+				<li><a>痛经用药</a></li>
+				<li><a>儿童感冒</a></li>
+				<li><a>消化不良</a></li>
+				<li><a>感冒用药</a></li>
+				<li><a>补气养血</a></li>
+				<li><a>补肾养阴</a></li>
+				<li><a>口腔咽炎</a></li>
+				<li><a>耳鼻喉用药</a></li>
+				<li><a>冠心病</a></li>
+				<li><a>中暑药品</a></li>
+			</ul>
+		</div>
+		<div>
+			<ul  style="float: left;">
+				<li><img src="img/肾宝片.jpg"/></li>
+			</ul>
+			<ul style="float: left;">
+			<li><img src="img/20180205173112XL2t4COY.jpg"/></li>
+			<li><img src="img/2.jpg"/></li>
+			</ul>
+			<ul style="float: left;">
+				<li><img src="img/6.jpg"/></li>
+				<li><img src="img/5.jpg"/></li>
+			</ul>
+			<ul>
+			    <li><img src="img/4.jpg" /></li>
+			    <li><img src="img/7.jpg" /></li>
+			</ul>
+			</div>
+		</div>
+		<div class="yytplb">
+			<div class="g-warp">
+				<ul>
+					<ul style="float: left;">
+					<li><img src="img/20170410151045CX9h4Z08.jpg"></li>
+					</ul>
+					<li><img src="img/20170608142824TyyY8e1N.jpg"></li>
+					<li><img src="img/201511271110113Cp1ArTa.gif"></li>
+					<li><img src="img/201706081429064YlaIDjE.jpg"></li>
+					<li><img src="img/20170608142923BapIZADl.jpg"></li>
+					<li><img src="img/20170410153857wDTh3v6l.jpg"></li>
+					<li><img src="img/20170410154036tSVQiXCw.jpg"></li>
+					<li><img src="img/20170608143000EfLUYXdX.jpg"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="g-warp">
+        <div class="ysbj">
+				<b style="color: green; font-size:25px"><span>养生保健</span></b>
+				<sub style="color: green;">精选养生保健</sub>
+				<div class="qwer">
+					<ul style="float: left;">
+						<li><a>骨胳保健</a></li>
+						<li><a>强身健体</a></li>
+						<li><a>增强免疫力</a></li>
+						<li><a>保护视力</a></li>
+						<li><a>改善睡眠</a></li>
+						<li><a>润肠通便</a></li>
+						<li><a>补维生素</a></li>
+					</ul>
+					<ul style="float: left;">
+						<li><a>营养补充</a></li>
+						<li><a>延缓衰老</a></li>
+						<li><a>中老年保健</a></li>
+						<li><a>糖尿病</a></li>
+						<li><a>清咽润喉</a></li>
+						<li><a>缓解疲劳</a></li>
+						<li><a>增强免疫</a></li>
+					</ul>
+					<ul class="yaopinbaike">
+						<b><h3>药品百科</h3></b>
+						<li>克罗米通乳膏</li>
+						<li>赛哽定乳膏</li>
+						<li>湖泊安神丸</li>
+						<li>一清颗粒</li>
+						<li>风湿酒</li>
+						<li>半枝莲胶囊</li>
+					</ul>
+				</div>			
+		</div>
+		
+
+		<div class="ysbjPic">
+			<ul style="float: left;">
+				<li><img src="img/20180117093001nGt1UKre.jpg"/></li>
+			</ul>
+			<ul style="float: left;">
+			<li><img src="img/2018011515022894ZTF3mm.jpg"/></li>
+			<li><img src="img/20180115150311oe3n4VhT.jpg"/></li>
+			</ul>
+			<ul style="float: left;">
+				<li><img src="img/20180120142441zVVkcqSa.jpg"/></li>
+				<li><img src="img/20180627143719A5u5RRzy.jpg"/></li>
+			</ul>
+			<ul style="float: right;">
+			    <li><img src="img/20180115150252aon1hbhS.jpg"/></li>
+			    <li><img src="img/20180627143753ZuoPX4Hu.jpg"/></li>
+			</ul>
+		</div>
+		</div>
+		<div class="g-warp">
+			<div class="dbl">
+				<b><span style="font-size: 24px;">新闻资讯</span></b>
+				<sub>新闻信息</sub>
+			</div>
+				<div class="wagg">
+					<br/>
+					<h4 style="margin-left: 5px; font-size: 16px;">网站公告</h4>
+					<ul style="margin-left: 10px;">
+						<li>李克强谈医改：尽可能让民众少花钱</li>
+						<li>国家药监局尽力挺全面解禁“处方药”...</li>
+						<li>医药互联网机遇与挑战并存...</li>
+						<li>医药网第三方平台科技强支撑...</li>
+						<li>十二药网打造国内最理想的医药...</li>
+						<li>网上药店促进医药变革  十二药网创新发...</li>
+					</ul>
+					<br/>
+					<h4 style="margin-left: 5px; font-size: 16px;">药监新闻</h4>
+					<ul style="margin-left: 10px;">
+						<li>国家食品药品监制管理总局调研组...</li>
+						<li>严正声明</li>
+						<li>医疗器械召回信息</li>
+						<li>国家食品药品监制总局部署贯彻实施...</li>
+						<li>食品药品兼职部门积极推进餐饮业...</li>
+						<li>国家食品药品监制总局通报医疗器械...</li>
+					</ul>
+				</div>
+		</div>
+		
+		<div>
+			<div class="jkzx">
+				<p>健康资讯</p>
+			</div>
+			<div class="bjzx">
+				<p>保健资讯</p>
+			</div>
+		</div>
+		
+        <div>
+        	<hr class="hrl"/>
+        </div>
+        <div class="tp">
+        	<ul>
+        	    <li><img style="height: 152px; width: 260px;" src="img/b6cda14c-0f82-48e1-848b-a13e67a4ea38.jpeg"></li>
+        	    <li><img style="height: 152px; width: 260px;" src="img/ec7b0580-2e7d-4bbf-806a-1f477e2ff99d.jpg"></li>
+        	</ul>
+        	<div class="lb">
+            <ul style="float: left;">
+            	<li>&bull;生活保健&nbsp;|&nbsp;秋冬皮肤干燥怎么办，教你不睡小妙招</li>
+            	<li>&bull;女性养生&nbsp;|&nbsp;屁股大的女人更长寿吗？长寿女人有这些...</li>
+            	<li>&bull;营养指南&nbsp;|&nbsp;榴莲有什么功效与作用</li>
+            	<li>&bull;营养指南&nbsp;|&nbsp;隔夜菜能吃吗？</li>
+            	<li>&bull;营养指南&nbsp;|&nbsp;隔夜水和隔夜茶会致癌吗？</li>
+            	<li>&bull;男性饮食&nbsp;|&nbsp;喝醉了怎么办？7种中药可解酒护肝</li>
+            	<li>&bull;生活保健&nbsp;|&nbsp;耳朵进水后不及时处理会哪些危害？</li>
+            	<li>&bull;生活保健&nbsp;|&nbsp;游泳时防止耳朵进水</li>
+            	<li>&bull;生活保健&nbsp;|&nbsp;耳朵进水怎么办</li>
+            	<li>&bull;女性疾病&nbsp;|&nbsp;秋冬尿频是什么原因？吃什么可以解决尿频</li>
+            	<li>&bull;女性养生&nbsp;|&nbsp;气色不好可常吃这些，气色不好吃什么好</li>
+            	<li>&bull;营养指南&nbsp;|&nbsp;四种不健康的早餐，营养美味早餐吃什么好</li>
+            </ul>
+            <ul style="float: left;">
+            	<li>&bull;生活保健&nbsp;|&nbsp;秋冬皮肤干燥怎么办，教你不睡小妙招</li>
+            	<li>&bull;女性养生&nbsp;|&nbsp;屁股大的女人更长寿吗？长寿女人有这些...</li>
+            	<li>&bull;营养指南&nbsp;|&nbsp;榴莲有什么功效与作用</li>
+            	<li>&bull;营养指南&nbsp;|&nbsp;隔夜菜能吃吗？</li>
+            	<li>&bull;营养指南&nbsp;|&nbsp;隔夜水和隔夜茶会致癌吗？</li>
+            	<li>&bull;男性饮食&nbsp;|&nbsp;喝醉了怎么办？7种中药可解酒护肝</li>
+            	<li>&bull;生活保健&nbsp;|&nbsp;耳朵进水后不及时处理会哪些危害？</li>
+            	<li>&bull;生活保健&nbsp;|&nbsp;游泳时防止耳朵进水</li>
+            	<li>&bull;生活保健&nbsp;|&nbsp;耳朵进水怎么办</li>
+            	<li>&bull;女性疾病&nbsp;|&nbsp;秋冬尿频是什么原因？吃什么可以解决尿频</li>
+            	<li>&bull;女性养生&nbsp;|&nbsp;气色不好可常吃这些，气色不好吃什么好</li>
+            	<li>&bull;营养指南&nbsp;|&nbsp;四种不健康的早餐，营养美味早餐吃什么好</li>
+            </ul>
+        	</div>
+        </div>
+        <div class="g-warp">
+        <div class="dibuMenu">
+        	<div class="g-warp">
+        		<ul style="font-size: 17px;">
+        			<li style="background: #FFFFFF;">友情链接</li>
+        			<li>监管机构</li>
+        			<li>合作媒体</li>
+        			<li>媒体导航</li>
+        			<li>品牌大全</li>
+        		</ul>
+        		</div>
+        	</div>
+        </div>
+        <div class="g-warp">
+        <div class="wzl">
+        <div class="hz">
+        	<ul>
+        		<li><a>糖尿病饮食指南&nbsp;</a></li>
+        		<li><a>3721健康知识&nbsp;</a></li>
+        		<li><a>快易捷药品网&nbsp;</a></li>
+        		<li><a>网上药店&nbsp;</a></li>
+        		<li><a>中医养生&nbsp;</a></li>
+        		<li><a>药房网&nbsp;</a></li>
+        		<li><a>飞华健康网&nbsp;</a></li>
+        		<li><a>网上药店&nbsp;</a></li>
+        		<li><a>人才网&nbsp;</a></li>
+        		<li><a>百姓健康网&nbsp;</a></li>
+        		<li><a>八百方网上药店&nbsp;</a></li>
+        		<li><a>妇科疾病&nbsp;</a></li>
+        		<li><a>亲亲宝贝网&nbsp;</a></li>
+        		<li><a>医疗人才网&nbsp;</a></li>
+        		<li><a>医药招商&nbsp;</a></li>
+        		<li><a>网上药店&nbsp;</a></li>
+        		<li><a>久久健康网&nbsp;</a></li>
+        		<li><a>嘉年乐&nbsp;</a></li>
+        		<br/>
+        		<li><a>养生之道网&nbsp;</a></li>
+        	    <li><a>即问即答&nbsp;</a></li>
+        	    <li><a>保健资讯&nbsp;</a></li>
+        	    <li><a>仁和药房网&nbsp;</a></li>
+        	    <li><a>网上药店&nbsp;</a></li>
+        	    <li><a>药房网商城&nbsp;</a></li>
+        	    <li><a>药品库&nbsp;</a></li>
+        		<li><a>整形美容&nbsp;</a></li>
+        		<li><a>食疗保健&nbsp;</a></li>
+        		<li><a>药房网&nbsp;</a></li>
+        	    <li><a>医院信息&nbsp;</a></li>
+        		<li><a>求医问药&nbsp;</a></li>
+        		<li><a>康爱多网上药店&nbsp;</a></li>
+        		<li><a>生男生女帮&nbsp;</a></li>
+        		<li><a>紫一商城&nbsp;</a></li>
+        		<li><a>网上买药&nbsp;</a></li>
+        		<li><a>药品价格315网&nbsp;</a></li>
+        	</ul>
+        </div>
+        </div>
+        </div>
+        <div class="g-warp">
+        	<div class="db">
+        		<a>关于我们</a>  |
+        		<a>联系我们</a>  |
+        		<a>法律声明</a>  |
+        		<a>隐私保护</a>  |
+        		<a>友情链接</a>  |
+        		<a>网站地图</a>  |
+        		<a>品牌索引</a>  |
+        		<a style="color: red;">软件专利著作</a>  |
+        		<a>安全联盟</a>  |
+        		<a>资讯TAG</a>
+        	</div>
+        	<div class="dbxx">
+        		<p><a style="color: red;">互联网药品信息服务资格证书：（湘）-经营性-2014-0002</a><a style="color: red;">互联网药品交易服务证书：国A20140005</a>   备案号：湘ICP备12013297-1</p>
+        		<p>@  2012-2016十二药网网上药店（www.12yao.com）版权所有<a style="color: red;">长沙市凯纳网络技术有限公司</a>版权所有</p>
+        		<p>找<a style="color: red;">网上药店</a>首选十二药店，这是您最好的选择也将是您最放心的<a style="color: red;">药房网</a>.</p>
+        		<p>本站信息不能代替医师的建议或作为医疗依据，请遵医嘱以保证用药安全。</p>
+        		<div class="dbtp">
+        			<ul>
+        				<li><img style="float: left; width: 124px; height: 47px;" src="img/rzlmsmrz_110x40.png"></li>
+        				<li><img style="float: left;" src="img/aqlmhyrz_124x47.png"></li>
+        				<li><img style="float: left;" src="img/f_yaom.jpg"></li>
+        			</ul>
+        		</div>
+        	</div>
+        </div>
+	</body>
+</html>
